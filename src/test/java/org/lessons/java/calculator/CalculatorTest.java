@@ -18,8 +18,8 @@ class CalculatorTest {
 	@Test
 	@DisplayName("Addition Test")
 	void testAdd() {
-		float sum = c.add(1, 3);
-		assertEquals(2, sum, "La somma deve essere 2");
+		float sum = c.add(1.5f, 3.75f);
+		assertEquals(5, sum, "La somma deve essere 5");
 	}
 
 }
