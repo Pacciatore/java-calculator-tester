@@ -29,4 +29,11 @@ class CalculatorTest {
 		assertEquals(2f, sub, "Il risultato dev'essere 2");
 	}
 
+	@Test
+	@DisplayName("Division Test")
+	void testDivide() {
+		float quo = c.divide(6f, .75f);
+		assertEquals(12f, quo, "Il quoziente dev'essere 12");
+	}
+
 }
