@@ -24,7 +24,7 @@ class CalculatorTest {
 
 	@Test
 	@DisplayName("Subtraction Test")
-	void testSubtraction() {
+	void testSubtract() {
 		float sub = c.subtract(3.5f, 51.5f);
 		assertEquals(2f, sub, "Il risultato dev'essere 2");
 	}
