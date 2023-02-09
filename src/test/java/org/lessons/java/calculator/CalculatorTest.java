@@ -36,4 +36,11 @@ class CalculatorTest {
 		assertEquals(12f, quo, "Il quoziente dev'essere 12");
 	}
 
+	@Test
+	@DisplayName("Moltiplication Test")
+	void testMultiply() {
+		float pro = c.multiply(6f, .75f);
+		assertEquals(3f, pro, "Il prodotto dev'essere 3");
+	}
+
 }
